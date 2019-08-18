@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector!</title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/javascript/game.js"></script>
+
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+
+<h1>Crystal Collector
+
+<div id="crystal-collector">
+    <h1>Crystal Collector  </h1>
+</div>
+
+<div id="instructions">
+    <p>You will be given a random number at the start of the game.  </p>
+    <p>There are four crystals below. By clicking  on a crystal you will add a specific amount of points to your total score.   </p>
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.  </p>
+    <p>the value of each crystal in hidden from you until you click on it.  </p>
+    <p>Each time when game starts, the game will change the values of each crystal.  </p>
+</div>
+
+<div id="score-container">
+
+    <div id="random-number"></div>
+    <div id="score-card">
+        wins: <span id="wins-total" ></span>
+        loses: <span id="losses-total" ></span>
+
+    </div>
+</div> 
+
+<div id="gems-container">
+
+    <img src="assets/images/1.jpg" class=cImage id="one" alt="First Cyrstal" width="100px"/>
+    <img src="assets/images/2.jpg" class=cImage id="two" alt="Second Cyrstal" width="100px"/>
+    <img src="assets/images/3.jpg" class=cImage id="three" alt="Third Cyrstal" width="100px"/>
+    <img src="assets/images/4.jpg" class=cImage id="four" alt="Fourth Cyrstal" width="100px"/>
+
+</div>
+
+<div id="score-title">
+
+    <p>
+        Your total score is:
+    </p>
+
+</div>
+
+<div id="total-score-container"> 
+
+
+<span id="score" >0</span>
+
+</div>
+    
+</body>
+</html>
